@@ -8,5 +8,5 @@ int a = int.Parse(Console.ReadLine());
 
 for (int i = 1; i <= a; i++)
 {
-    Console.WriteLine($"Число {i} в кубе {i} = {Math.Pow(i, 3)}");
+    Console.WriteLine($"Число {i} в кубе = {Math.Pow(i, 3)}");
 }
